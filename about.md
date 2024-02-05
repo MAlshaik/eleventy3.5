@@ -3,5 +3,6 @@ layout: layout.liquid
 title: About
 ---
 
-# About the 11ty **Boilerplate**
-<img class="about" alt="pine" src="/images/pine.png" width="50" />
+# About us
+## Our Mission
+Our mission is to inspire curiosity and foster learning about the universe. Through our blog posts, we aim to bring the wonders of space exploration and the mysteries of distant stars and galaxies to everyone.

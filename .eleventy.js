@@ -2,4 +2,8 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
+
+  eleventyConfig.addShortcode("paragraph", function(content) { 
+    `<div class="paragraph">${content}</div>`
+  });
 };
