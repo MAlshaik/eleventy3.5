@@ -4,6 +4,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("styles");
 
   eleventyConfig.addShortcode("paragraph", function(content) { 
-    `<div class="paragraph">${content}</div>`
+    return `<div class="paragraph">${content}</div>`;
   });
 };
